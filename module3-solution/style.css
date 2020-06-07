@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+}
+
+h1{
+    /* text-align: center; */
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(184, 241, 129);
+}
+.bg-steel {
+    background-color: rgb(243, 103, 224);
+}
+
+.content{
+    background-color: aqua;
+    padding: 0 20px 20px 20px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.content h2{
+    color: rgb(245, 239, 153);
+    font-size: 125%;
+    float: right;
+    padding: 10px 20px;
+    margin: 0 -20px 10px 0;
+}
+.content p {
+    clear: right;
+}
+#chicken h2{
+    background-color: salmon;
+}
+#beef h2 {
+    background-color: orange;
+}
+#sushi h2 {
+    background-color: plum;
+}
